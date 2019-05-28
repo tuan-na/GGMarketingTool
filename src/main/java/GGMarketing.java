@@ -45,7 +45,7 @@ public class GGMarketing {
 
         GoogleAdsClient googleAdsClient;
         try {
-            File propertiesFile = new File("res/ads1.properties");
+            File propertiesFile = new File("res/ads2.properties");
             googleAdsClient =
                     GoogleAdsClient.newBuilder()
                             .fromPropertiesFile(propertiesFile).build();
